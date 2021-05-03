@@ -27,7 +27,7 @@
  */
 
 import PromiseWorker from 'promise-worker'
-import Worker from 'worker-loader!./worker'
+import Worker from './renderer.worker'
 
 import './index.css'
 

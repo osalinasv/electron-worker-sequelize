@@ -14,6 +14,10 @@ module.exports = [
       },
     },
   },
+  {
+    test: /\.worker\.js$/,
+    use: { loader: 'worker-loader' },
+  },
   // Put your webpack loader rules in this array.  This is where you would put
   // your ts-loader configuration for instance:
   /**
